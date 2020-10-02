@@ -1,46 +1,31 @@
-# le Phare Weather App
+# le Phare ReadMe Generator
 
 ## Description 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
-A weather application for viewing the weather of a specified location.
-          
-## Table of Contents
-          
-* [Installation](#installation)
-* [Usage](#usage)
-* [Testing](#testing)
-* [Credits](#credits)
-* [License](#license)
-* [Questions](#questions)
+A simple ReadMe generator via CLI.
          
 ## Installation
-This application requires an index.html file, a css stylesheet, and a script.js file.
+This application requires an index.js file and installion of the package.json dependencies.
           
 ## Usage 
-The user will search for a city in the search bar and that will automatically pull up the weather for a location.
+The user answer a series of prompts realted to the project and their contact info, which will then create a readme.md file based on the answers.
 
-## Testing 
-Test by searching for various cities and locations and comparing to current weather forecasts.
+A short video walkthrough is located here: https://www.youtube.com/watch?v=mOum_i4Dmh4&feature=youtu.be
+
+Also, below is a screenshot of the prompts and a success message upon creating a new readme - all on the command line interface.
+
+
+![page screenshot](./images/screenshot1.png)
+
+The project exists on this GitHub repo but is not currently deployed.
           
 ## Credits
 Created by: C Cruzcosa
           
 ## License
-Copyright [2020] [name of copyright owner]
-     
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-     
-    http://www.apache.org/licenses/LICENSE-2.0
-     
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Copyright (c) [2020] [Christopher Cruzcosa]
 
-## Questions
-If you have any questions, reach me at: 
-    - Email: ccruzcosa@gmail.com
-    - GitHub Profile: https://github.com/christopher-cruzcosa
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

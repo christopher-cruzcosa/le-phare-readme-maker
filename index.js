@@ -1,21 +1,17 @@
+
+//These are the necessary packages
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer")
 
+//this allows writeFile to be asynchronous
 const writeFileAsync = util.promisify(fs.writeFile);
-const licenses = {
-    types: {
-        MIT: "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
-        ISC: "![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
-        Apache: "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-        GNU: "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
-    }
-}
 
+//This is the main function that controls all of the operations, using other functions
 function main() {
     promptUser()
         .then((answers) => {
-            const html = generateHTML(answers);
+            const html = generateMD(answers);
             return writeFileAsync("readme.md", html);
         })
         .then(() => {
@@ -26,6 +22,7 @@ function main() {
         });
 }
 
+//This function prompts users for all information and then returns the answers as an object
 function promptUser() {
     return inquirer.prompt([
         {
@@ -83,7 +80,8 @@ function promptUser() {
 };
 
 
-function generateHTML(answers) {
+//this function creates the MD file and all the text within it, using the inquirer data
+function generateMD(answers) {
     let licenseBadge;
     let licenseText;
     let gitHubAddress = "https://github.com/" + answers.gitHub
