@@ -71,7 +71,7 @@ function promptUser() {
         },
         {
             type: "input",
-            message: "What is your Git Hub profile name?",
+            message: "What is your GitHub profile name?",
             name: "gitHub"
         },
         {
@@ -111,7 +111,7 @@ SOFTWARE.`;
 
     } else if (answers.license === "ISC"){
         licenseBadge = "![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)";
-        licenseText = `Copyright <YEAR> <OWNER>
+        licenseText = `Copyright (c) [2020] [fullname]
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or 
 without fee is hereby granted, provided that the above copyright notice and this permission notice appear 
@@ -160,7 +160,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
     return `# ${answers.name}
 
 ## Description 
-${licenseBadge} ${answers.desc}
+${licenseBadge} 
+${answers.desc}
           
 ## Table of Contents
           
@@ -187,9 +188,9 @@ ${answers.credits}
 ${licenseText}
 
 ## Questions
-If you have any questions, please email me at ${answers.email}
-
-Also, take a look at my GitHub profile at ${gitHubAddress}`
+If you have any questions, reach me at: 
+    - Email: ${answers.email}
+    - GitHub Profile: ${gitHubAddress}`
           
 }
 

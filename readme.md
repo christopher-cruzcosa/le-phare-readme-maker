@@ -1,7 +1,8 @@
-# y
+# le Phare Weather App
 
 ## Description 
-![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg) y
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
+A weather application for viewing the weather of a specified location.
           
 ## Table of Contents
           
@@ -13,31 +14,33 @@
 * [Questions](#questions)
          
 ## Installation
-y
+This application requires an index.html file, a css stylesheet, and a script.js file.
           
 ## Usage 
-y
+The user will search for a city in the search bar and that will automatically pull up the weather for a location.
 
 ## Testing 
-y
+Test by searching for various cities and locations and comparing to current weather forecasts.
           
 ## Credits
-y
+Created by: C Cruzcosa
           
 ## License
-Copyright <YEAR> <OWNER>
-
-Permission to use, copy, modify, and/or distribute this software for any purpose with or 
-without fee is hereby granted, provided that the above copyright notice and this permission notice appear 
-in all copies.
-        
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE 
-INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE 
-FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM 
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, 
-ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+Copyright [2020] [name of copyright owner]
+     
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+     
+    http://www.apache.org/licenses/LICENSE-2.0
+     
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ## Questions
-If you have any questions, please email me at chris@gmai.com
-
-Also, take a look at my GitHub profile at https://github.com/christopher-cruzcosa
+If you have any questions, reach me at: 
+    - Email: ccruzcosa@gmail.com
+    - GitHub Profile: https://github.com/christopher-cruzcosa
